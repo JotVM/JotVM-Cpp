@@ -24,6 +24,8 @@ namespace jot {
     using Null = decltype(nullptr);
     const Null null = nullptr;
 
+    using cstring = const char *;
+
     using ustring = std::basic_string<jchar>;
 }
 
