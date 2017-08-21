@@ -6,6 +6,7 @@
 #define JOTVM_BASE_H
 
 #include <cinttypes>
+#include <string>
 
 namespace jot {
     using byte = std::int8_t;
@@ -22,6 +23,8 @@ namespace jot {
 
     using Null = decltype(nullptr);
     const Null null = nullptr;
+
+    using ustring = std::basic_string<jchar>;
 }
 
 #endif //JOTVM_BASE_H

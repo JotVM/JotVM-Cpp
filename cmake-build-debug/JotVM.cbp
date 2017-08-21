@@ -5,7 +5,7 @@
 		<Option title="JotVM"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\classpath\;CMake Files\src\classfile\;CMake Files\src\cmd\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\classpath\;CMake Files\src\classfile\;CMake Files\src\cmd\;CMake Files\test\;CMake Files\test\util\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug"/>
@@ -268,6 +268,12 @@
 		</Unit>
 		<Unit filename="/home/glavo/CLionProjects/JotVM/src/cmd/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\cmd\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/test/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\util\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
