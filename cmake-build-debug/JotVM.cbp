@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JotVM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\classpath\;CMake Files\src\classfile\;CMake Files\src\cmd\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JotVM">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/JotVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 JotVM"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JotVM/fast">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/JotVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 JotVM/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcp">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/libjotcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/classpath/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 jotcp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcp/fast">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/libjotcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/classpath/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 jotcp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classpath/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcf">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/libjotcf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/classfile/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 jotcf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcf/fast">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/libjotcf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/classfile/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 jotcf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/classfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcmd">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/libjotcmd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/cmd/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 jotcmd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jotcmd/fast">
+				<Option output="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/libjotcmd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/glavo/CLionProjects/JotVM/src/cmd/.."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 jotcmd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/glavo/CLionProjects/JotVM/cmake-build-debug/src/cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/base.h">
+			<Option target="JotVM"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classfile/ClassFile.cpp">
+			<Option target="jotcf"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classfile/ClassFile.h">
+			<Option target="jotcf"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classpath/Entry.cpp">
+			<Option target="jotcp"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classpath/Entry.h">
+			<Option target="jotcp"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/cmd/Cmd.cpp">
+			<Option target="jotcmd"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/cmd/Cmd.h">
+			<Option target="jotcmd"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/main.cpp">
+			<Option target="JotVM"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classpath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\classpath\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/classfile/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\classfile\"/>
+		</Unit>
+		<Unit filename="/home/glavo/CLionProjects/JotVM/src/cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cmd\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
